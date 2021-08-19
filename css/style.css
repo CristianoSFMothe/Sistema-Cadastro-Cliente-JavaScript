@@ -110,6 +110,12 @@ footer{
   padding: 20px;
   text-align: center;
   line-height: 22px;
+  
+  background-color: var(--primary-color);
+}
+
+footer p strong {
+  color: #000000;
 }
 
 @media (max-width:480px){
