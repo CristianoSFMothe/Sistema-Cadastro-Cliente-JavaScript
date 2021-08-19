@@ -1,4 +1,4 @@
-<h1>Sistema Cadastro Cliente JavaScrip</h1>
+<h1>Sistema Cadastro Cliente JavaScript</h1>
 
 
 <p>Projeto criando usando javascript</p>
