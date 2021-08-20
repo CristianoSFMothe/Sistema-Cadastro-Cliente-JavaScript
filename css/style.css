@@ -105,9 +105,9 @@ form .btn{
 footer{
   width:100;
   text-align: center;
-  font-weight: 200;
+  font-weight: 150;
   font-style: italic;
-  padding: 20px;
+  padding: 18px;
   text-align: center;
   line-height: 22px;  
   background-color: var(--primary-color);
@@ -116,8 +116,29 @@ footer{
 footer p strong {
   color: #000000;
 }
+@media only screen and (min-width-width:560px) and (max-width: 635px){ 
+  header{
+      position:fixed;
+      width:100%;
+  }
+  .header-title{
+      font-size: 1rem;
+  }
 
-@media (max-width:480px){
+  main{
+      padding: 0;
+      margin: 15px 0 0 0;
+      width:100%;
+      box-shadow: none;
+  }
+  th {
+    font-size: 2px;
+    height:100%;
+  }
+}
+
+@media  (max-width:480px){
+  
   header{
       position:fixed;
       width:100%;
@@ -130,6 +151,8 @@ footer p strong {
       padding: 0;
       margin: 20px 0 0 0;
       width:100%;
-      box-shadow: none;
+      box-shadow: none;      
   }
+  
 }
+
